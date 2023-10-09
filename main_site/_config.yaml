@@ -1,0 +1,120 @@
+# Profile section
+profile:
+  first_name: Andrea
+  last_name: Piombo
+  picture: static/img/andrea.png
+  contact:
+    address_one: Milano, Italia
+    phone: (039)3273719655
+  email: piombo.andrea.04@gmail.com
+  description: |
+    I'm a student at Politecnico di Milano in the field of biomedical engineering.
+    One of my main hobbies is coding and I've some experience with python, javascript, html & css.
+    I give my best while working on design and construction of electrical panels and networks, both in team and solo.
+
+
+# Social section
+social:
+  website: https://piombacciaio.pythonanywhere.com
+  github: https://github.com/Piombacciaio/
+  linkedin: https://www.linkedin.com/in/piombacciaio/
+  #twitter:
+  #facebook:
+  #dev:
+  #medium:
+
+
+# Experience section
+experience:
+  item0:
+    position: Computer technician
+    company: FIS - CRL [Italian Fencing Federation - Regional Committee of Lombardy]
+    from: September 2022
+    to: Present
+    description: Technician responsible of managing the [partial and total] results of competitions and internet publication in real time on the 4fence.it website using the "Fence!", "TimeFence", "WebFence" applications
+    link: https://lombardia.federscherma.it/
+
+
+# Education section
+education:
+  item0:
+    institution: Politecnico di Milano
+    program: Biomedical Engineering
+    description: Biomedical Engineering graduated can be employed in the field of design, development and commercialization of biomedical devices, as well as in the pharmaceutical sector.
+    from: September 2023
+    to: Current
+    link: https://www.ccsbio.polimi.it/?lang=en
+
+  item1:
+    institution: IIS Luigi Galvani
+    program: Technical School on Electrotechnics
+    description: Student of the Electrotechnics course with experience on medical equipment
+    from: September 2018
+    to: June 2023
+    link: https://www.iisgalvanimi.edu.it/istituto-tecnico
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  - python
+  - markdown
+  - git-alt
+  - github
+  - google
+  - google-drive
+
+extra_skills:
+  - Discord and Telegram bots
+  - GUI applications
+  - Several Python packages including Flask, NumPy, PyQT5, PySimpleGUI, etc.
+  - Sizing of transmission lines, distribution lines and industrial power supply
+  - Industrial automation with IL and LADDER
+  - Knowledge of the Da Vinci Surgical Systems
+
+
+# Projects section
+projects:
+  item0:
+    title: Tax Code Calculator
+    subtitle: A GUI calculator for italian tax code
+    description: An easy-to-use graphic interface to calculate and show a fac-simile of italian tax code and national card of services (CNS).
+    link: https://piombacciaio.github.io/tax-code-calculator/
+    github: https://github.com/Piombacciaio/tax-code-calculator/
+    img: CNS.png
+    tags: [Python, PySimpleGUI]
+
+  item1:
+    title: YouTube Downloader
+    subtitle: A GUI and prompt script for downloading YT videos
+    description: A very simple GUI and prompt interface used to download videos and audios from youtube uploads.
+    link: https://piombacciaio.github.io/YouTube-downloader/
+    github: https://github.com/Piombacciaio/YouTube-downloader
+    img: darkyt.png
+    tags: [Python, PySimpleGUI]
+
+  item2:
+    title: Combinatory
+    subtitle: A GUI script for combinatorial analysis
+    description: A very simple GUI script used to calculate combinations, dispositions and permutations.
+    link: https://piombacciaio.github.io/Calcolo-Combinatorio/
+    github: https://github.com/Piombacciaio/Calcolo-Combinatorio
+    img: simple-perm.jpg
+    tags: [Python, PySimpleGUI]
+
+  item3:
+    title: Python Resume
+    subtitle: My resume starting from a flask template
+    description: This website's backend
+    link: https://piombacciaio.pythonanywhere.com/
+    github: https://github.com/Piombacciaio/python-resume
+    img: Flask.png
+    tags: [Python, Flask, Web]
+
+# Certifications and awards section
+awards:
+- Electromedical Training by ITS Nuove Tecnologie della Vita
+- Workplace Health & Safety Certification by ANFOS
+- Workplace Health & Safety Certification by MIUR
+- Energy Efficency Academy Certification by Schneider Electric
+
